@@ -13,9 +13,11 @@ console.log("total is " + arrayReduce)
 //------------------------------------------------------------------------------------------
 const arraySome = [1,20,3,4,50,6,7,18];
 let resultSome : boolean = arraySome.some((zahl) => zahl > 10);
+let welcheZahl : number[] = arraySome.filter((zahl) => zahl > 10);
 
 if(resultSome) {
     console.log("Es gibt mindestens eine Zahl die ist als 10")
+    console.log(" und zwar die Zahlen " + welcheZahl)
 }else{
     console.log("Es gibt keine Zahl die größer als 10 ist")
 }
