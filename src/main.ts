@@ -7,6 +7,10 @@ console.log(numbers)
 const words = ['Test', 'Kaffee', 'Haus', 'Projektwoche', 'Baustelle', 'Dienstag'];
 const result = words.filter((word) => word.length > 5);
 console.log(result)
+const reversed = words.reverse();
+console.log('reversed words:', reversed);
+words.sort()
+console.log('sorted words:', words)
 //------------------------------------------------------------------------------------------
 let arrayReduce: number = [10, 20, 30, 40].reduce((a,b) => a+b);
 console.log("total is " + arrayReduce)
